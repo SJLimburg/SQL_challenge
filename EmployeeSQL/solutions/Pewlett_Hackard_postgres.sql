@@ -1,12 +1,12 @@
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/21lsfT
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
+
 CREATE TABLE "departments" (
     "dept_no" varchar   NOT NULL primary key,
     "dept_name" varchar   NOT NULL
 );
-
-
 
 CREATE TABLE "titles" (
     "title_id" varchar Not Null primary key,
