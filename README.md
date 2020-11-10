@@ -13,4 +13,4 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 The data structure of the database needed to follow logically from the csv file content. An ERD was created to illustrate specify data types, primary keys, foreign keys, and other constraints.
 
-![ERD]()
+![ERD](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/QuickDBD-Pewlett_Hackard_ERD.png)
