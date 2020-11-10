@@ -22,4 +22,4 @@ YOu will note that every table has a primary key. For dept_manager and dept_emp 
  
 ##### If you prefer a tablular view of the data relationships, here it is
 
-![ERD](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/QuickDBD-Pewlett_Hackard.pdf)
+![PDF of ERD](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/QuickDBD-Pewlett_Hackard.pdf)
