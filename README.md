@@ -63,4 +63,6 @@ Due to foreign key validations care had to be taken to create the tables in logi
 ###### The SQL used can be examind here  (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Pewlett_Hackard_outputs.sql)
 # **Enjoy!**
 
+### Bonus! Import the SQL database into Pandas using sqlalchemy
+
 
