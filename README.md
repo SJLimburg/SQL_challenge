@@ -65,4 +65,10 @@ Due to foreign key validations care had to be taken to create the tables in logi
 
 ### Bonus! Import the SQL database into Pandas using sqlalchemy
 
+sqlalchemy was used to access the Postgres data base in question
+
+        from sqlalchemy import create_engine
+        engine = create_engine(f'postgresql:{password}//localhost:5432/Pewlett_Hackard')
+        connection = engine.connect()
+
 
