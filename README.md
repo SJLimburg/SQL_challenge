@@ -82,9 +82,11 @@ sqlalchemy was used to access the Postgres data base in question a Padas datafra
 The Padas dataframe was then used to:
 
     1. Create a histogram to visualize the most common salary ranges for employees.
-    ![histogram](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_Histogram.png)
+   
+   ![histogram](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_Histogram.png)
 
     2. Create a bar chart of average salary by title.
+    
     ![Bar_chart](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_bar_chart.png)
     
 The Jupyter notebook used can be found at (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/Bonus.ipynb)
