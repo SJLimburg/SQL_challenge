@@ -20,6 +20,10 @@ YOu will note that every table has a primary key. For dept_manager and dept_emp 
         -- dept_manager has composite key dept_no + emp_no
         -- dept_emp has composite key emp_no + dept_no
  
-##### If you prefer a tablular view of the data relationships, here it is
+##### If you prefer a tablular view of the data relationships, Click on the PDF link below
 
 ![PDF of ERD](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/QuickDBD-Pewlett_Hackard.pdf)
+
+### To track the files in this endeavor a 'EmployeeSQL' folder was created. Subfolder 'Data' contains the original csv files given; 'solutions' contains the result files
+
+Due to foreign key validations care had to be taken to create the tables in logical order; departments, titles and employees were created first followed by dept_emp, dept_manager and salaries. The  sql can be found at (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Pewlett_Hackard_postgres.sql)
