@@ -87,6 +87,6 @@ The Padas dataframe was then used to:
 
     2. Create a bar chart of average salary by title.
     
-    ![Bar_chart](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_bar_chart.png)
+   ![Bar_chart](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_bar_chart.png)
     
 The Jupyter notebook used can be found at (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/Bonus.ipynb)
