@@ -35,29 +35,29 @@ Due to foreign key validations care had to be taken to create the tables in logi
     * This is a simple WHERE query.*                            
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_1_Emp_salary.csv)
    
-   -- 2. List first name, last name, and hire date for employees who were hired in 1986.   
-    * this query uses the POSTGRES BETWEEN function within the where statement*             
+    -- 2. List first name, last name, and hire date for employees who were hired in 1986.   
+    * This query uses the POSTGRES BETWEEN function within the where statement*             
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_2_hired1986.csv)
             
-    -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.                 * This and the next query uses more than one condition in the where clause and comb ines data from multiple tables.*        
+    -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.               * This and the next query uses more than one condition in the where clause and comb ines data from multiple tables.*        
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_3_manager_info.csv)
    
-   -- 4. List the department of each employee with the following information: employee number, last name, first name, and department name.     
+    -- 4. List the department of each employee with the following information: employee number, last name, first name, and department name.     
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_4_employee_info.csv
 
     -- 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."       
-    *This query makes use of the LIKE within the WHERE and '%' wildcard. There were a suprising number of employees fitting this description!*      
+    * This query makes use of the LIKE within the WHERE and '%' wildcard. There were a suprising number of employees fitting this description!*      
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_5_Hercules_B_info.csv)
 
     -- 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.              
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_6_Sales_Emp_info.csv)
 
     -- 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.     
-    * Notice that this query is very similar to the previous but required searching an OR condition.*   
+    * Notice that this query is very similar to the previous but required searching using an OR condition.*   
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_7_Sales_%26_Development_Emp_info.csv)
 
     -- 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.      
-    *This query makes use of the GROUP BY and ORDER BY functions to show the data by count in descending order.*               
+    * This query makes use of the GROUP BY and ORDER BY functions to show the data by count in descending order.*               
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_8_count_by_Last_names.csv)
 
 ###### The SQL used can be examind here  (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Pewlett_Hackard_outputs.sql)
