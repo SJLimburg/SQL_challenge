@@ -26,4 +26,18 @@ YOu will note that every table has a primary key. For dept_manager and dept_emp 
 
 ### To track the files in this endeavor a 'EmployeeSQL' folder was created. Subfolder 'Data' contains the original csv files given; 'solutions' contains the result files
 
+The tables were created in POSTGRES  leveraging the SQL created in the presvious step. Some smalll changes to the QUickDraw generated code were done to ensure proper table creation especially with the composite keys.
 Due to foreign key validations care had to be taken to create the tables in logical order; departments, titles and employees were created first followed by dept_emp, dept_manager and salaries. The  sql can be found at (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Pewlett_Hackard_postgres.sql)
+
+##### Data Analysis tasks were assigned and solutions developed along with output files as delineated below
+
+-- List the following details of each employee: employee number, last name, first name, sex, and salary. (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_1_Emp_salary.csv)
+-- List first name, last name, and hire date for employees who were hired in 1986. (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_2_hired1986.csv)
+-- List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name. (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_3_manager_info.csv)
+-- List the department of each employee with the following information: employee number, last name, first name, and department name. (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_4_employee_info.csv
+-- List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B." *There were a suprising number of employees fitting this description!*  (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_5_Hercules_B_info.csv)
+-- List all employees in the Sales department, including their employee number, last name, first name, and department name. (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_6_Sales_Emp_info.csv)
+-- List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name. * Notice that this query is very similar to the previous but required searching an OR condition.* (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_7_Sales_%26_Development_Emp_info.csv)
+-- In descending order, list the frequency count of employee last names, i.e., how many employees share each last name. (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_8_count_by_Last_names.csv)
+
+
