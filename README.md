@@ -14,3 +14,12 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 The data structure of the database needed to follow logically from the csv file content. An ERD was created to illustrate specify data types, primary keys, foreign keys, and other constraints.
 
 ![ERD](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/QuickDBD-Pewlett_Hackard_ERD.png)
+
+YOu will note that every table has a primary key. For dept_manager and dept_emp composite primary keys were created to ensure no duplicate entries of the folloing pairs of data:
+
+        -- dept_manager has composite key dept_no + emp_no
+        -- dept_emp has composite key emp_no + dept_no
+ 
+##### If you prefer a tablular view of the data relationships, here it is
+
+![ERD](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/QuickDBD-Pewlett_Hackard.pdf)
