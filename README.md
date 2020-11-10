@@ -31,7 +31,7 @@ Due to foreign key validations care had to be taken to create the tables in logi
 
 ##### Data Analysis tasks were assigned and solutions developed along with output files as delineated below
 
-    -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.                         
+    1. List the following details of each employee: employee number, last name, first name, sex, and salary.                         
     * This is a simple WHERE query.*                            
     (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/output_1_Emp_salary.csv)
    
