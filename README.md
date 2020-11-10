@@ -9,7 +9,8 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
     - Data Engineering
     - Data Analysis
     
-### After examng the Csv files an ERD was created using http://www.quickdatabasediagrams.com.
+### After analyzing the logic of the csv files, an ERD was created using http://www.quickdatabasediagrams.com.
 
-The data structure of the database needed to follow logically from the csv file content. AN ERD was creaetd to illustrate specify data types, primary keys, foreign keys, and other constraints.
+The data structure of the database needed to follow logically from the csv file content. An ERD was created to illustrate specify data types, primary keys, foreign keys, and other constraints.
 
+![ERD]()
