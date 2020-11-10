@@ -63,12 +63,28 @@ Due to foreign key validations care had to be taken to create the tables in logi
 ###### The SQL used can be examind here  (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Pewlett_Hackard_outputs.sql)
 # **Enjoy!**
 
-### Bonus! Import the SQL database into Pandas using sqlalchemy
+### Bonus! Import the SQL database into Pandas using sqlalchemy then creat a histogram of salaries and  a bar caht of average salary by title
 
-sqlalchemy was used to access the Postgres data base in question
+sqlalchemy was used to access the Postgres data base in question a Padas dataframe was successfully created 
 
         from sqlalchemy import create_engine
-        engine = create_engine(f'postgresql:{password}//localhost:5432/Pewlett_Hackard')
+        import pandas as pd
+        import matplotlib.pyplot as plt
+        from config import password
+        password = password
+
+        engine = create_engine(f'postgresql://postgres:{password}@localhost:5432/Pewlett_Hackard')
         connection = engine.connect()
 
+        salary = pd.read_sql("SELECT * FROM salaries", connection)
+        salary   
 
+The Padas dataframe was then used to:
+
+    1. Create a histogram to visualize the most common salary ranges for employees.
+    ![histogram](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_Histogram.png)
+
+    2. Create a bar chart of average salary by title.
+    ![Bar_chart](https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/solutions/Salary_bar_chart.png)
+    
+The Jupyter notebook used can be found at (https://github.com/SJLimburg/SQL_challenge/blob/main/EmployeeSQL/Bonus.ipynb)
